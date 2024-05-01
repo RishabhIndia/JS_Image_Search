@@ -1,6 +1,6 @@
 const btn = document.querySelector("#search-btn");
 const input = document.querySelector("input");
-const viewmore = document.querySelector(".viewbtn");
+let viewmore = document.querySelector(".viewbtn");
 let currentPage = 1; // Track the current page number
 
 btn.addEventListener("click", (e) => {
